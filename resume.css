@@ -107,7 +107,8 @@ body{
 
 .habilidades li{
     margin-bottom: 15px;
-    display: inline-block;
+    display: inline-;
+    font-size: large;
 }
 .habilidades h5{
     color: #fff;
@@ -175,6 +176,7 @@ p{
     text-transform: uppercase;
     color: #848c90;
     font-weight: 600;
+    max-width:fit-content;
 }
 .about .box .text h4{
     text-transform: uppercase;
@@ -215,8 +217,8 @@ p{
 
 
 .interests ul{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    justify-content: space-around;
 }
 .interests ul li{
     list-style: none;
